@@ -1,0 +1,14 @@
+﻿<Window x:Name="___No_Name_" x:Class="TextToBinary.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ASCI (De)coder" Height="332.09" Width="527.985" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <TextBox x:Name="TextBox_Plaintext" HorizontalAlignment="Left" Height="111" Margin="77,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Text="abcABC123"/>
+        <TextBox x:Name="TextBox_Binary" HorizontalAlignment="Left" Height="111" Margin="77,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="430" Text="1110100110010111100111110100010000001010000111101"/>
+        <Label Content="Plaintext:" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" Width="61"/>
+        <Label Content="In binary:" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top" Width="62"/>
+        <Button x:Name="Button_ToBinary" Content="To Binary" HorizontalAlignment="Left" Margin="141,126,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="Button_ToBinary_Click"/>
+        <Button x:Name="Button_ToPlain" Content="To Plain" HorizontalAlignment="Left" Margin="335,126,0,0" VerticalAlignment="Top" Width="90" Height="34" Click="Button_ToPlain_Click"/>
+
+    </Grid>
+</Window>
